@@ -11,7 +11,7 @@ International admissions offices receive a high volume of repetitive, time-sensi
 - Build a robust **multi-label classification model** to categorize emails into multiple relevant topics
 - Automatically generate **contextual replies** based on predicted labels
 - Evaluate and compare performance between **traditional models and fine-tuned BERT**
-- Explore **zero-shot learning (BART)** for flexible, prompt-based classification without retraining
+- Explore **zero-shot learning (BERT)** for flexible, prompt-based classification without retraining
 - Run entirely in **Google Colab** for accessibility and reproducibility
 
 
