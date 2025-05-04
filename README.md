@@ -53,7 +53,7 @@ Each category is mapped to a pre-written professional response. The system uses 
    👉 [Open the Full Project in Colab](https://colab.research.google.com/drive/1hPm27eTfAE1ev-B7vueoqfqERvWCVYIl)
 
 2. **Option A** – For fastest setup (recommended):  
-   **Upload the following files** from your local machine to skip training:  
+   **Download the following files** from the Google Drive link (provided privately) and upload them into the /content/ directory in Colab:
    - `email_dataset.csv`  
    - `Y.npy`  
    - `X_test_texts.csv`  
