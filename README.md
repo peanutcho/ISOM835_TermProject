@@ -3,6 +3,7 @@
 
 This project develops a machine learning system to automatically classify and respond to international student admissions emails using both traditional predictive models and fine-tuned BERT. It includes multi-label classification, auto-reply generation, and zero-shot classifier with BART. The entire analysis is performed in Google Colab for reproducibility and accessibility.
 
+👉 [Open the Full Project in Colab](https://colab.research.google.com/drive/1hPm27eTfAE1ev-B7vueoqfqERvWCVYIl)
 
 ## 🧠 Project Overview & Objectives
 
