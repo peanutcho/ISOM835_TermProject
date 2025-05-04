@@ -1,0 +1,25 @@
+
+# Jupyter/Colab artifacts
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.checkpoint
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model and dataset files (manual uploads)
+*.npy
+*.pt
+email_dataset.csv
+X_test_texts.csv
+y_test.npy
+Y.npy
+
+# OS-specific files
+.DS_Store
+
+# Visualizations (if re-generated during run)
+visualizations/*.png
