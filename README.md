@@ -3,7 +3,6 @@
 
 This project develops a machine learning system to automatically classify and respond to international student admissions emails using both traditional predictive models and fine-tuned BERT. It includes multi-label classification, auto-reply generation, and zero-shot classifier with BART. The entire analysis is performed in Google Colab for reproducibility and accessibility.
 
----
 
 ## 🧠 Project Overview & Objectives
 
@@ -15,7 +14,7 @@ International admissions offices receive a high volume of repetitive, time-sensi
 - Explore **zero-shot learning (BART)** for flexible, prompt-based classification without retraining
 - Run entirely in **Google Colab** for accessibility and reproducibility
 
----
+
 ## 🗃️ Dataset Description
 
 A synthetic dataset of 1,000 realistic emails was created using admission-related templates. Each email is randomly labeled with up to 3 of the following 10 categories:
@@ -29,12 +28,12 @@ Example entry:
 | Hello, I submitted my financial documents for my I-20. When will I receive an update?           | [VISA, DOCS, STATUS] |
 
 
----
+
  ## ✉️ Example of Automated Response Generator
 
 Each category is mapped to a pre-written professional response. The system uses predicted categories to generate contextual replies.
 
----
+
 
 ## 🧰 Tools & Libraries Used
 
@@ -47,7 +46,6 @@ Each category is mapped to a pre-written professional response. The system uses 
   - `Matplotlib`, `Seaborn`: Visualization
 - **Platform**: Google Colab (cloud-based, no setup required)
 
----
 
 ### ▶️ How to Run This Project in Google Colab
 
@@ -75,7 +73,7 @@ Each category is mapped to a pre-written professional response. The system uses 
    ⏳ This will take longer, especially the BERT fine-tuning step.
    ➤ In this case, **skip Step 5-1 and Step 5-2** (which are only for model/data restoration).
 
----
+
 
 ## 📊 Visualizations
 
@@ -95,7 +93,7 @@ Example chart:
   <img src="https://github.com/peanutcho/ISOM835_TermProject/blob/main/model_accuracy_comparison.png" alt="Model Accuracy Comparison" width="600"/>
 </p>
 
---- 
+
 
 ## 🧪 Highlights
 
@@ -106,29 +104,33 @@ Example chart:
 | ✉️ Auto-response Generator      | Templates mapped to each category to provide reply suggestions              |
 | 🔍 Zero-shot Classification      | No retraining needed — BART model dynamically classifies novel queries      |
 
----
+
 
 ## 📁 Directory Structure
 
 ├── /visualizations/ # All plots (saved manually from Colab)
+
 ├── /notebooks/ # Google Colab .ipynb notebook
+
 ├── bert_classifier_sd.pt # Saved model weights (not uploaded to GitHub)
+
 ├── README.md # Project documentation
+
 └── .gitignore
 
-> 📌 Note: Model weights and dataset files are excluded from the repo due to size. Instructions are provided to upload these when running the notebook.
+📌 Note: Model weights and dataset files are excluded from the repo due to size. Instructions are provided to upload these when running the notebook.
 
 ---
 
 ## 🔚 Final Notes
 
-✅ Fully modular codebase
-✅ Easily adaptable to new email categories
-✅ Supports real-time or batch email analysis
-✅ Ideal for real-time admissions chatbot integration
-✅ Can be expanded with real-world datasets and multilingual support
+- Fully modular codebase
+- Easily adaptable to new email categories
+- Supports real-time or batch email analysis
+- Ideal for real-time admissions chatbot integration
+- Can be expanded with real-world datasets and multilingual support
 
----
+
 
 ## 📬 Contact
 
