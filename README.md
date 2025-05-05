@@ -21,19 +21,16 @@ International admissions offices receive a high volume of repetitive, time-sensi
 A synthetic dataset of 1,000 realistic emails was created using admission-related templates. Each email is randomly labeled with up to 3 of the following 10 categories:
 `ENGLISH`, `DOCS`, `VISA`, `DEADLINE`, `FINANCE`, `STATUS`, `PROGRAM`, `TECH`, `CASCADE`, `COMPLEX`
 
+ ## ✉️ Example of Automated Response Generator
+
+Each category is mapped to a pre-written professional response. The system uses predicted categories to generate contextual replies.
+
 
 Example entry:
 
 | email_text                                                                                      | labels               |
 |--------------------------------------------------------------------------------------------------|----------------------|
 | Hello, I submitted my financial documents for my I-20. When will I receive an update?           | [VISA, DOCS, STATUS] |
-
-
-
- ## ✉️ Example of Automated Response Generator
-
-Each category is mapped to a pre-written professional response. The system uses predicted categories to generate contextual replies.
-
 
 
 ## 🧰 Tools & Libraries Used
