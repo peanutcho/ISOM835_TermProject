@@ -125,8 +125,9 @@ Example chart:
 - Fully modular codebase
 - Easily adaptable to new email categories
 - Supports real-time or batch email analysis
-- Ideal for real-time admissions chatbot integration
-- Can be expanded with real-world datasets and multilingual support
+- Ideal for integration into admissions support workflows
+- Ideal for real-time chatbot integration in admissions or other office settings
+- Can be expanded with additional features and real-world datasets
 
 
 
